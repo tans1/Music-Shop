@@ -7,7 +7,7 @@ function CreatePage() {
   return (
     <div className='px-[100px]'>
       <Navbar />
-      <CreateMusic url={"http://localhost:5000/create"} title = {""} artist = {""}/>
+      <CreateMusic url={"https://music-shop-backend-jwdn.onrender.com/create"} title = {""} artist = {""}/>
     </div>
 
   )

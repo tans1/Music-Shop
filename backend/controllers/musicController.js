@@ -33,7 +33,7 @@ const CreateMusic = async (req, res, next) => {
             fileName: req.file.filename
           });
           await newMusic.save();
-          res.redirect("http://localhost:3000/");
+          res.redirect("https://music-shop-tofik.vercel.app/");
         } catch (error) {
           res.status(500).send("Error saving data to the database");
         }
